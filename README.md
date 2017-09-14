@@ -25,7 +25,7 @@ If we had 4 people (we’ll name them 1, 2, 3 and 4 ) and each were meant to get
 
 ## Approach
 
-> This problem is an example of mamy to many relationship. It can be best implemented using graph data structure. Graphs allow you to store information about the relationship between the different components (here Users).
+> This problem is an example of many to many relationship. It can be best implemented using graph data structure. Graphs allow you to store information about the relationship between the different components (here Users).
 Graphs help to store information in a way that help implement algorithms and makes problem solving easier.
 In this approach graph is represented using a dictionary and is built using array notation.
 
