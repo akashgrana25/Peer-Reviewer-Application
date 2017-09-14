@@ -3,7 +3,7 @@ python:
   - '3.5'
 install: pip install -r requirements.txt
 script: python test.py -v
-deploy:
-  provider: heroku
-  app: peer-reviewer-application
-  api_key: "e9322d8a-4f0b-4081-aab5-3401f45de25e"
+#deploy:
+#  provider: heroku
+#  app: peer-reviewer-application
+#  api_key: "e9322d8a-4f0b-4081-aab5-3401f45de25e"
