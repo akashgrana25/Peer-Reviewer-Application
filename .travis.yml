@@ -5,3 +5,7 @@ python:
 install: "pip install -r requirements.txt"
   #Command to run tests
 script: "python test.py -v"
+deploy: &heroku
+        provider: heroku
+        app: peer-review-application
+        
