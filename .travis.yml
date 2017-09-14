@@ -1,9 +1,5 @@
 language: python
 python:
-- '3.5'
+  - '3.5'
 install: pip install -r requirements.txt
 script: python test.py -v
-deploy:
-  provider: heroku
-  app: Peer-Reviewer-Application
-  api_key: "e9322d8a-4f0b-4081-aab5-3401f45de25e"
