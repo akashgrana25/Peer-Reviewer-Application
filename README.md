@@ -25,10 +25,9 @@ If we had 4 people (we’ll name them 1, 2, 3 and 4 ) and each were meant to get
 
 ## Approach
 
-> This problem is implemented using object oriented paradigm graph data structure. Graphs allow you to store information about the relationship between the different components (here the users).
+> This problem is an example of mamy to many relationship. It can be best implemented using graph data structure. Graphs allow you to store information about the relationship between the different components (here Users).
 Graphs help to store information in a way that help implement algorithms and makes problem solving easier.
-This approach was chosen as it was easier to visualize the problem and implement it. It has been tested with several input conditions. 
-Alternative approach that can be implemented is using a HashMap where in the time comlexity remains the same but space complexity can be optimized
+In this approach graph is represented using a dictionary and is built using array notation.
 
 ### Tech
 
