@@ -70,14 +70,14 @@
             console.log(typeof y);
 
 
-            if (x == "" || y == "") {
+            if ( isNaN(x) || isNaN(y)) {
                 // alert("Name must be filled out");
-                $("#myalert").html('<div class="alert alert-danger" role="alert">Please DO NOT keep the fields Empty!! </div>');
+                $("#myalert").html('<div class="alert alert-danger" role="alert">Please DO NOT enter non-numeric values!! </div>');
                 removeAlert();
-            } else if(x == 0 || y == 0){
+            } else if(x === 0 || y === 0){
                 $("#myalert").html('<div class="alert alert-danger" role="alert">Value cannot be 0 in either fields</div>');
                 removeAlert();
-            } else if(x == y){
+            } else if(x === y){
                 $("#myalert").html('<div class="alert alert-danger" role="alert">Number of Users and Reviewers cannot be the same </div>');
                 removeAlert();
             } else if(x < y){
