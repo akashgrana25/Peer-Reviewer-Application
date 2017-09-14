@@ -5,8 +5,5 @@ install: pip install -r requirements.txt
 script: python test.py -v
 deploy:
   provider: heroku
-  api_key:
-    secure: bKeRr/5op2q715xH5yr1u6+2sUZdjiseKCuqfKKsz7iR7IumuyXYyZajvHjUsJb+sTj342LMzS0Rx8eVSA34BmzhPBueShpp3c/y7aVkv02ckhMh5YZiVHMwcE8lnbXmcTKgJAL047MNgxfP4V4YqasyVXLUDShF804ZaQcm0bzqU1ZEzewWILyo+wfc7ZMXBYO3fdwmkO+ifHzyBi+m7CbxO9Xn6zGZBHabxnxXsBSBXad9KzeciG/uoyyIPia9+nRxRNwXcJAGu+IAM8kk0WE7yaZzCT7gHvQkKcu+Ai0zttgJtV0MAxdgw0yjye3W/Gx43sFozi/U7Ft4X0j9ll9VXc8zYKRzl6eDgRBLUVySu9NxKGGRQVI2LnSeNVnRw66doyl3K4fM0Sj0fXZkDvu0yBqj3IJTpcOlLKSRI3xlLMxYSWtZXfEmWvRy2EiqmUPxLiGQv6l8wtyRph9BKtPhQegdbbINx2disBRK+BmCPob0mIDmnHlTM5qqW7INunZpekWN8gPC+Yv5hlRMaOhf9SO/wCg2U/d86TB+49ArC4Ru/8DEONU/OQ4byUbNtI0v/1Kal9T0DsXHzeaXVkIvk6I/KmObjskj1/wglnH+ZR9Kc6PzabuifJjvAvqZyDgZr9/3NwDOkQltEUpGAY3Pt0TtJvZpBFB1xbP/ao0=
   app: Peer-Reviewer-Application
-  on:
-    repo: akashgrana25/Peer-Reviewer-Application
+  api_key: "e9322d8a-4f0b-4081-aab5-3401f45de25e"
