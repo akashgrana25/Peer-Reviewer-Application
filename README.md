@@ -17,10 +17,10 @@ If we had 4 people (we’ll name them 1, 2, 3 and 4 ) and each were meant to get
 
 | User | Reviewer |
 | ------ | ------ |
-| 4 | Person 1, Person 2 |
-| 3 | Person 2, Person 3 |
+| 0 | Person 1, Person 2 |
+| 1 | Person 2, Person 3 |
 | 2 | Person 3, Person 0 |
-| 1 | Person 0, Person 1 |
+| 3 | Person 0, Person 1 |
 
 
 ## Approach
